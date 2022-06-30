@@ -1,13 +1,8 @@
 import pickle
 import matplotlib.pyplot as plt
 import pandas as pd
-import seaborn
 import seaborn as sns
-import datetime as dt
-import numpy as np
 import streamlit as st
-from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
-from sklearn.tree import DecisionTreeClassifier
 
 
 option = st.sidebar.radio('Select Page', ('Statistics','Blackbelt Probability', 'Registration Forecast'))
