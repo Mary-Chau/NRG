@@ -8,7 +8,7 @@ import streamlit as st
 option = st.sidebar.radio('Select Page', ('Statistics','Blackbelt Probability', 'Registration Forecast'))
 
 
-df = pd.read_excel('https://github.com/Mary-Chau/NRG/blob/aa28340cbe7d38af625757c842641dc0f815b093/StudentInfo1.xlsx')
+df = pd.read_excel('https://github.com/Mary-Chau/NRG/blob/main/StudentInfo1.xlsx')
 df = df[['Start Date','Gender','Registration date','Active','Starting Age','Starting Grade','BlackBelt']]
 df = df.dropna()
 
