@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestClassifier
 option = st.sidebar.radio('Select Page', ('Statistics','Blackbelt Probability', 'Registration Forecast'))
 
 
-df = pd.read_excel('https://github.com/Mary-Chau/NRG/blob/9f9d6c82dbb586bdb1833bdf4901ae8634bddc0f/StudentInfo1.xlsx')
+df = pd.read_excel('https://github.com/Mary-Chau/NRG/blob/main/StudentInfo1.xlsx')
 df = df[['Start Date','Gender','Registration date','Active','Starting Age','Starting Grade','BlackBelt']]
 df = df.dropna()
 
