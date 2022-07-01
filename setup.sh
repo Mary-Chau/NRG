@@ -7,4 +7,4 @@ enableCORS = false\n\
 headless = true\n\
 \n\
 " > ~/.streamlit/config.toml\n\
-enableWebsocketCompression = false 
+enableWebsocketCompression = false
