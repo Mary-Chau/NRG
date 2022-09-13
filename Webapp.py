@@ -61,13 +61,14 @@ def stats():
 
 def BB():
 
-        st.write("""
-        # NRG New Joiner To Be Blackbelt Prediction App
+        st.write("""# NRG New Joiner To Be Blackbelt Prediction App""")
+        
+        st.caption('This is a study assignment of NRG Korean Taekwondo by Pency CHAU')
 
-        This app predicts the **Probability** to be a blackbelt!
+        st.write ("""This app predicts the **Probability** to be a blackbelt!
 
         """)
-        st.caption('This is a study assignment of NRG Korean Taekwondo by Pency CHAU')
+        
         st.header('User Input Features')
 
         # Collects user input features into dataframe
