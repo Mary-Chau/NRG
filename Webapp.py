@@ -20,6 +20,7 @@ df = df.dropna()
 def stats():
 
         st.title('NRG New Joiner Analysis')
+        st.caption('This is a study assignment of NRG Korean Taekwondo by Pency CHAU')
 ############################################################################################
 #Pie chart of Gender
         sex=df.groupby('Gender').count()
@@ -66,7 +67,7 @@ def BB():
         This app predicts the **Probability** to be a blackbelt!
 
         """)
-
+        st.caption('This is a study assignment of NRG Korean Taekwondo by Pency CHAU')
         st.header('User Input Features')
 
         # Collects user input features into dataframe
